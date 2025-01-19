@@ -5,11 +5,11 @@ This project deliberating YOLOv8 and OpenCV2 to classify apple color. The apple 
 
 I am using conda 24.11.3 with Linux Mint 21.1 system and YOLOv8 [model](https://yolov8.com/).<br>
 Before continuing the process I would like to setting up the environment with conda, but I also put some adjustment if you want to run the program from jupyter. Make suere you have already install the miniconda or anaconda in your machine. By following this step you will creating project environment:
-1. create project folder
+1. Clone the project
     ```bash
-    mkdir apple-classification
+    git clone https://github.com/FauzanNR/apple-classification.git
     ```
-2. Create conda environment in normal way
+2. Create conda environment for Yolo detection in normal way
 
     ```bash
     conda create --name detection-with-yolov8 python=3.11 -y
@@ -31,7 +31,7 @@ Before continuing the process I would like to setting up the environment with co
     ```bash
     pip install ipykernel
     ```
-    from here you can already select the kernel from Vscode.
+    from here you can already select the kernel in Vscode.
     <br>
     if you want to use jupyter notebook, install the package inside this environment
     ```bash
